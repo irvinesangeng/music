@@ -10,7 +10,7 @@ module.exports = {
     channel.leave();
     message
     .channel
-    .send(i18n.__("👋 Disconnected from channel"))
+    .send(i18n.__("👋 Disconnected from channel."))
     .catch(console.error);
   }
 }
