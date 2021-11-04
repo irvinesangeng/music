@@ -21,7 +21,7 @@ module.exports = {
     let nowPlaying = new MessageEmbed()
       .setTitle(i18n.__("nowplaying.embedTitle"))
       .setDescription(`${song.title}\n${song.url}`)
-      .setColor("#F8AA2A")
+      .setColor("#B37A4C")
 
     if (song.duration > 0) {
       nowPlaying.addField(
