@@ -1,20 +1,8 @@
 {
-	"clip": {
-		"description": "Plays a clip sound",
-		"usagesReply": "Usage: /clip <name>",
-		"errorQueue": "Can't play clip because there is an active queue.",
-		"errorNotChannel": "You need to join a voice channel first!"
-	},
-	"clips": {
-		"description": "List all clips"
-	},
 	"help": {
 		"description": "Display all commands and descriptions",
 		"embedTitle": "{botname} Help",
 		"embedDescription": "List of all commands"
-	},
-	"invite": {
-		"description": "Send bot invite link"
 	},
 	"loop": {
 		"description": "Toggle music loop",
@@ -26,12 +14,6 @@
 		"errorNotQueue": "There is nothing playing.",
 		"lyricsNotFound": "No lyrics found for {title}.",
 		"embedTitle": "{title} - Lyrics"
-	},
-	"move": {
-		"description": "Move songs around in the queue",
-		"errorNotQueue": "There is no queue.",
-		"usagesReply": "Usage: {prefix}move <Queue Number>",
-		"result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
 	},
 	"nowplaying": {
 		"description": "Show now playing song",
@@ -84,11 +66,6 @@
 		"playlistCharLimit": "\nPlaylist larger than character limit...",
 		"startedPlaylist": "<@{author}> Started a playlist",
 		"cantJoinChannel": "Could not join the channel: {error}"
-	},
-	"pruning": {
-		"description": "Toggle pruning of bot messages",
-		"errorWritingFile": "There was an error writing to the file.",
-		"result": "Message pruning is {result}"
 	},
 	"queue": {
 		"description": "Show the music queue and now playing.",
