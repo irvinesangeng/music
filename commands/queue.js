@@ -83,7 +83,7 @@ function generateQueueEmbed(message, queue) {
     const embed = new MessageEmbed()
       .setTitle(i18n.__("queue.embedTitle"))
       .setThumbnail(message.guild.iconURL())
-      .setColor("#F8AA2A")
+      .setColor("#B37A4C")
       .setDescription(
         i18n.__mf("queue.embedCurrentSong", { title: queue[0].title, url: queue[0].url, info: info })
       )
