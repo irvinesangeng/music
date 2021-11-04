@@ -5,7 +5,7 @@
     "SPOTIFY_CLIENT_ID": "8060b7a38bdb45bdabdbfef9c66548c6",
     "SPOTIFY_SECRET_ID": "eb0538edb93d4097ba8bc16ee96e8c4f",
     "MAX_PLAYLIST_SIZE": 10,
-    "PREFIX": ",",
+    "PREFIX": "-",
     "PRUNING": false,
     "LOCALE": "en",
     "STAY_TIME": 604800,
