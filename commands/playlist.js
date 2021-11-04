@@ -132,7 +132,7 @@ module.exports = {
       .setTitle(`${playlist ? playlist.title : 'Spotify Playlist'}`)
       .setDescription(newSongs.map((song, index) => `${index + 1}. ${song.title}`))
       .setURL(playlist ? playlist.url : 'https://www.spotify.com/')
-      .setColor("#F8AA2A")
+      .setColor("#B37A4C")
       .setTimestamp();
 
     if (playlistEmbed.description.length >= 2048)
