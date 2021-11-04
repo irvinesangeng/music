@@ -89,7 +89,7 @@ module.exports = {
         .setAuthor("YouTube")
         .setTitle(i18n.__mf("play.startedPlaying", { title: song.title}))
         .setURL(`${song.url}`)
-        .setDescription(`Requested by ${message.author.username}`)
+        .setFooter(`Requested by ${message.author.username}`)
         .setColor("#964B00")
       );
       await playingMessage.react("⏭");
