@@ -32,7 +32,7 @@
 		"result": "📈 Average ping to API: {ping} ms"
 	},
 	"play": {
-		"description": "Plays audio from YouTube or Soundcloud",
+		"description": "Plays audio from YouTube",
 		"errorNotChannel": "You need to join a voice channel first!",
 		"errorNotInSameChannel": "You must be in the same channel as {user}",
 		"usageReply": "Usage: {prefix}play <Video Name | YouTube URL | Spotify URL>",
