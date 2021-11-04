@@ -86,11 +86,9 @@ module.exports = {
     try {
       var playingMessage = await queue.textChannel.send(
         new MessageEmbed()
-        .setAuthor("YouTube")
-        .setTitle(i18n.__mf("play.startedPlaying", { title: song.title}))
-        .setURL(`${song.url}`)
-        .setFooter(`Requested by ${message.author.username}`)
-        .setColor("#964B00")
+        .setTitle("Now Playing")
+        .setDescription(`${song.title}\n${song.url}`)
+        .setColor("#B37A4C")
       );
       await playingMessage.react("⏭");
       await playingMessage.react("⏯");
