@@ -88,6 +88,7 @@ module.exports = {
         new MessageEmbed()
         .setTitle("Now Playing")
         .setDescription(`${song.title}\n${song.url}`)
+        .setFooter(`Requested by ${message.author.username}`)
         .setColor("#B37A4C")
       );
       await playingMessage.react("⏭");
