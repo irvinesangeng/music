@@ -86,7 +86,7 @@ module.exports = {
     try {
       var playingMessage = await queue.textChannel.send(
         new MessageEmbed()
-        .setTitle("Now Playing")
+        .setTitle(i18n.__("play.startedPlaying"))
         .setDescription(`${song.title}\n${song.url}`)
         .setFooter(`Requested by ${message.author.username}`)
         .setColor("#B37A4C")
