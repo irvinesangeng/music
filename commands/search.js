@@ -21,7 +21,7 @@ module.exports = {
     const search = args.join(" ");
 
     let resultsEmbed = new MessageEmbed()
-      .setTitle(i18n.__("search.resultEmbedTtile"))
+      .setTitle(i18n.__("search.resultEmbedTitle"))
       .setDescription(i18n.__mf("search.resultEmbedDesc", { search: search }))
       .setColor("#B37A4C");
 
