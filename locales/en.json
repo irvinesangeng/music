@@ -35,7 +35,7 @@
 		"description": "Plays audio from YouTube",
 		"errorNotChannel": "❌ You need to join a voice channel first!",
 		"errorNotInSameChannel": "❌ You must be in the same channel as {user}",
-		"usageReply": "Usage: {prefix}play <Video Name | YouTube URL | Spotify URL>",
+		"usageReply": "Usage: {prefix}play <Song Name | YouTube URL | Spotify URL>",
 		"missingPermissionConnect": "❌ Cannot connect to voice channel, missing permissions",
 		"missingPermissionSpeak": "❌ I cannot speak in this voice channel, make sure I have the proper permissions!",
 		"queueAdded": "✅ **{title}** has been added to the queue by <@{author}>",
